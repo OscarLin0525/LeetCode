@@ -1,5 +1,5 @@
 #include <iostream>
-#include <structure.h>
+#include <structure.hpp>
 
  int main(){
     ListNode* list1 = Operation::create({1,2,3,4,5});

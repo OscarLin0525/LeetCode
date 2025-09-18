@@ -1,4 +1,4 @@
-#include <structure.h>
+#include <structure.hpp>
 // 函式實作
 // 使用 `FindMid::` 來表明這個函式是屬於 FindMid 類別的
 ListNode* Operation::findMid(ListNode* head){

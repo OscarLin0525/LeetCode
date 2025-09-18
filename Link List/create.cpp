@@ -1,4 +1,5 @@
-#include <structure.h>
+#include <structure.hpp>
+#include <stdio.h>
 /*建立一個測試用的鏈結串列*/
 ListNode* create(const std::vector<int>& vals) {
     if (vals.empty()) return nullptr;
