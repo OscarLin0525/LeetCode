@@ -14,6 +14,8 @@ std::size_t LongestSubstringFinder::getLength() const {
     return maxLength;
 }
 
+// sliding window最重要的地方在於window長度(right - left + 1)
+// 關於maintain max value，可用max(max, right - left + 1)來做更新，而不用for loop + if
 void LongestSubstringFinder::calculate() {
     const std::size_t n = s.length();
     std::unordered_map<char, std::size_t> lastSeen;
